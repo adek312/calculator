@@ -1,0 +1,23 @@
+body{
+    background-color: #001264;
+    margin: 0;
+}
+
+#container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+}
+
+input {
+    width: 176px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+  }
