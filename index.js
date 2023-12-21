@@ -11,16 +11,16 @@ function multiply(a,b){
     return a*b;
 }
 
-let firstNumber;
-let secondNumber;
-let operator;
-
-function operate(firstNumber, operator, secondNumber){
-    console.log(firstNumber,operator,secondNumber);
-}
-
 function appendValue(value) {
-    let displayValue = document.getElementById('display').value += value;
-    return displayValue;
+    const display = document.getElementById('display');
+    if(value === "CE"){
+        display.value = "";
+    }
+    else{
+        display.value += value;
+    }
 }
 
+function operate(){
+    
+}
